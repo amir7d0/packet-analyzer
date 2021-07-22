@@ -12,10 +12,10 @@ if __name__=='__main__':
             raw_data, addr = conn.recvfrom(65535)
             pcap.write(raw_data)
             eth = Ethernet(raw_data)
-            print("="*100)
-            print("\n")
-            print(' Ethernet Frame: ')
 
+            print('\n\n' + "="*100 + '\n')
+
+            print(' Ethernet Frame: ')
 
             if (eth.proto == 0x0806):
                 ether_type = 'ARP (0x0806)'
