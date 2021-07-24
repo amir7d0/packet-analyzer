@@ -16,7 +16,7 @@ A Python-based packet analyzer
 	- HTTP
 	- DNS
 
-##Requirement
+## Requirement
 - Python 3.x
 	- socket
 	- struct
@@ -26,9 +26,8 @@ A Python-based packet analyzer
 - Linux Operatin System
 - Administrator Privileges "super user do"
 
-## Support
 
-##Run
+## Run
 
 
 ```sh
