@@ -15,7 +15,7 @@ if __name__=='__main__':
 
             print('\n\n' + "="*100 + '\n')
 
-            print(' Ethernet Frame: ')
+            print(f' Ethernet Frame: \t\t\t\t\t\t {time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())}')
 
             if (eth.proto == 0x0806):
                 ether_type = 'ARP (0x0806)'
