@@ -1,5 +1,5 @@
 # packet-analyzer
-A Python-based packet analyzer
+A Python-based packet analyzer(packet sniffer)
 
 
 ### Features
